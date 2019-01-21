@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fameowner/upwork/lab1.c
+lab1.h
+/home/fameowner/upwork/lab1.h
+
+/home/fameowner/upwork/lab1.h
+stdio.h
+-
+getopt.h
+-
+string.h
+-
+unistd.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
